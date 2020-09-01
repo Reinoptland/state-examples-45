@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 export default function LikeCounter() {
   const numberOfLikes = 0;
@@ -18,6 +18,12 @@ export default function LikeCounter() {
     // console.log("CHECK YOURSELF BEFORE YOU WRECK YOURSELF");
     setLikes(likes + 10);
   }
+
+  console.log("A render!");
+
+  useEffect(() => {
+    console.log("The useEffect action!");
+  }, []);
 
   return (
     <div>

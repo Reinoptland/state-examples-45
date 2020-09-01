@@ -10,9 +10,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <DifferentLikeButton />
-        <LikeCounter />
-        <Dinosaurs />
+        {/* <DifferentLikeButton /> */}
+        {/* <LikeCounter /> */}
+        {/* <Dinosaurs /> */}
         <ArticlesList />
       </header>
     </div>
