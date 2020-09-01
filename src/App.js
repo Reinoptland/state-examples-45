@@ -5,6 +5,7 @@ import LikeCounter from "./components/LikeCounter";
 import DifferentLikeButton from "./components/DifferentLikeButton";
 import Dinosaurs from "./components/Dinosaurs";
 import ArticlesList from "./components/ArticlesList";
+import Chuck from "./components/Chuck";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
         {/* <DifferentLikeButton /> */}
         {/* <LikeCounter /> */}
         {/* <Dinosaurs /> */}
-        <ArticlesList />
+        {/* <ArticlesList /> */}
+        <Chuck />
       </header>
     </div>
   );
